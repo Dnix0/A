@@ -45,6 +45,10 @@ void loop() {
      lcd.setCursor(14,0);
      lcd.print("X");
   }
+  else if(t < 15 && h < 80){
+    lcd.setCursor(14,0);
+    lcd.print("X");
+  }
   else{
     lcd.setCursor(14,0);
      lcd.print("O");
